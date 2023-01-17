@@ -1,0 +1,15 @@
+<script>
+    let escolha = parseFloat(prompt('Escolha um dos itens 1 - Pizza R$12 2 - Pão de Queijo R$4 3 - Macarrão R$16 4 - Pastel R$4.50'));
+    let valor = parseFloat(prompt("Qual valor vai dar?")) 
+    if (valor != 12 || 4 || 16 || 4.50){
+        document.write("Não precisa de troco")
+        }if (escolha == "1") {
+        document.write("Seu troco fica R$", (valor - 12))        
+    } else if (escolha == "2") {
+        document.write("Seu troco fica R$", (valor - 4))        
+    } else if (escolha == "3"){
+        document.write("Seu troco fica R$", (valor - 16))
+    } else if (escolha == "4"){
+        document. write("Seu troco fica R$", (valor - 4.50))
+        }
+</script>
